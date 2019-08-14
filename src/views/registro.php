@@ -1,3 +1,8 @@
+<?php
+function render()
+{
+    ?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -37,3 +42,10 @@
 
     </div>
 </body>
+
+<?php
+
+}
+return render;
+
+?>

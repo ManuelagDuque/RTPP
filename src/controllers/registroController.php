@@ -5,7 +5,8 @@ final class RegistroController {
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
         else {
-            include BASE . "/src/views/registro.php";
+            $ruta= include BASE . "/src/views/registro.php";
+            $ruta ();
         }
 
     }
