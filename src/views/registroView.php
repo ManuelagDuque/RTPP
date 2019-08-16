@@ -18,7 +18,7 @@ function render()
         <img src="assets/logo_F5.png" alt="Logo Factoria F5" width="8%">
     </header>
     <div class="formularioLogin">
-        <form method="POST" action="perfilCoder.html">
+        <form method="POST" action=".">
             <div class="input-group">
                 <label for="name"> Nombres: </label>
                 <input type="text" name="nombre" placeholder="Ramona" required>
@@ -31,11 +31,11 @@ function render()
 
             <div class="input-group">
                 <label for="password"> Contraseña:</label>
-                <input type="password" name="Contraseña" placeholder="" required>
+                <input type="password" name="contraseña" placeholder="" required>
             </div>
 
             <input type="submit" value="Login" class=buttonLogin>
-            <input TYPE="hidden" name="redirect" value="perfilCoder.html">
+            
         </form>
 
 

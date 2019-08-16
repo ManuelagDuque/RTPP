@@ -1,5 +1,6 @@
 <?php
-$BASE=getcwd();
+ $BASE=getcwd();
 define("BASE", $BASE);
-include BASE . "/src/indexr.php";
+//define("BASE", getcwd());  //esto es equivalente a las líneas 2 y 3
+include BASE . "/src/router.php";
 ?>
